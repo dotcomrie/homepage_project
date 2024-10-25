@@ -1,0 +1,73 @@
+h1,
+div,
+p {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+  color: #FF3C00;
+  overflow: hidden;
+  position: sticky;
+  padding: 0rem;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  z-index: 1;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.logo-wrapper {
+  text-align: center;
+  margin-right: 1rem;
+}
+
+header img {
+  width: 5rem;
+  height: 5rem;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+h1::after {
+  width: 8rem;
+  height: 1px;
+  display: block;
+  background-color: #851F00;
+  content: '';
+}
+
+body {
+  background-color: black;
+  margin: 0rem;
+  display: grid;
+  place-items: center;
+}
+
+main {
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    padding: 20px;
+    overflow: hidden;
+  }
+
+.hero{
+  height: 100vw;
+  width: 100%;
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(guitar.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.light-gray{
+  color: lightgray;
+}

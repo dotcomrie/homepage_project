@@ -1,0 +1,26 @@
+HTML    -   tags
+            <ul>    - unordered list tag (bullet points)
+                <li> - use "list item" tag inside for each item
+
+            <ol>    - ordered list (1, 2, 3, etc)
+
+        -   attributes
+                <form>
+                        <label for="fname">First name:</label><br>                                       These are examples of attributes in HTML. There are many different types of attributes for tags.
+                        <input type="text" id="fname" name="fname" value="John"><br>                     See more information - https://www.w3schools.com/html/html_form_attributes.asp
+                        <label for="lname">Last name:</label><br>
+                        <input type="text" id="lname" name="lname" value="Doe">
+                </form>
+
+
+CSS     -   properties
+
+                type selector - name of the tag
+
+                class selector  -   . notation
+
+                ID selector     -   # notation
+
+                attribute selector
+
+                ...
